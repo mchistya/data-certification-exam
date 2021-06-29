@@ -1,0 +1,7 @@
+{
+    "MEDIAN_AGE": "\nThe coef value is over 2000. One unit increase in median age, holding other things constant, induce 2000 increase in number of accidnets.\nYet, median age doesn't have statistical significance for the model. Its effect is zero.\n",
+    "T_STAT": "\nStudent's t-test is equal to 1.820\nIt is calculated as a ratio of the difference between predicted beta and the zero-hypothesis beta (0) to its standard deviation,i.e.\n(beta_hat - beta_zero)/(std)\n",
+    "P_VALUE": "\ncorrespond to the probability of getting t-value, serves as a threshold. It would be considered statistically significant for\nan apriori hyposes at 87 % confidence level.\n",
+    "INCREASE": "\nHolding all other regressors constant, the total number of incidents decrease by 2000 on average (among districts).\n",
+    "LIMITATIONS": "\nThere is a strong multicollinearity between features. Median age is correlated with the procentage of people between 30-34 and with the\npercetage of married couples.\nThe model specification is not exhaustive, there might be important regressors ommited from the model.\n"
+}
